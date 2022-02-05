@@ -1,0 +1,36 @@
+.accordion 
+    width: 98%;
+    margin: 1%;
+    
+    &__section 
+        cursor: pointer;
+        padding: 1%;
+        background-color:  #fff3d1;
+        transition: 0.4s;
+
+    &__section:after 
+        content: '\25BC'; 
+        font-size: .8em;
+        color: #777;
+        float: right;
+        margin-left: 1%;
+
+    &__section:hover
+        background-color: #eed7aa;
+        
+    &__content
+        background-color: #ffffff;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+
+        &__text 
+            font-size: .8em;
+
+.active
+    background-color: #eed7aa;
+
+.active:after 
+    content: '\25B2';
+
+   

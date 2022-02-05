@@ -1,0 +1,31 @@
+{
+  "name": "js_simply_accordion",
+  "version": "1.0.2",
+  "description": "Accordion javascript module",
+  "main": "dist/accordion.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack && node-sass --include-path scss src/accordion.sass dist/accordion.css",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez.git"
+  },
+  "keywords": [
+    "accordion",
+    "javascript"
+  ],
+  "author": "Daniel Rodríguez Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez/issues"
+  },
+  "homepage": "https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack": "^5.68.0",
+    "jsdom": "^19.0.0",
+    "node-sass": "^7.0.1",
+    "jest": "^27.4.7"
+  }
+}
