@@ -1,6 +1,6 @@
 {
   "name": "js_simply_accordion",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Accordion javascript module",
   "main": "dist/accordion.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez.git"
+    "url": "git+https://github.com/Jazhann/jsSimplyAccordion.git"
   },
   "keywords": [
     "accordion",
@@ -18,9 +18,9 @@
   "author": "Daniel Rodríguez Gómez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez/issues"
+    "url": "https://github.com/Jazhann/jsSimplyAccordion.git/issues"
   },
-  "homepage": "https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez#readme",
+  "homepage": "https://github.com/Jazhann/jsSimplyAccordion.git#readme",
   "devDependencies": {
     "webpack-cli": "^4.9.2",
     "webpack": "^5.68.0",

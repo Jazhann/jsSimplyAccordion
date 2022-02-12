@@ -68,10 +68,10 @@ accordion.toggle(0);
 
 
 ### Source Code
-[accordion()](https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez.git)
+[accordion()](https://github.com/Jazhann/jsSimplyAccordion)
 
 ## Contribution Notes
-Clone project on [github](https://github.com/ClearPeaks/Javascript-exercise-daniel-rodriguez.git)
+Clone project on [github](https://github.com/Jazhann/jsSimplyAccordion)
 ### Install libraries
 ```bash
 npm i
